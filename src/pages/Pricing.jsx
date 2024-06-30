@@ -6,7 +6,7 @@ import { pricing } from "../constants";
 
 function Pricing() {
   return (
-    <section className="flex flex-col-reverse md:flex-row gap-10 items-center">
+    <section id="precios" className="flex flex-col-reverse md:flex-row gap-10 items-center">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
         {pricing.map((i) => {
           return <PricingTag key={i.id} {...i} />;

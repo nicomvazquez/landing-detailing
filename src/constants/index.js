@@ -1,27 +1,27 @@
 export const nav = [
   {
     title: "Inicio",
-    path: "/",
+    path: "home",
   },
   {
     title: "Servicios",
-    path: "/",
+    path: "servicios",
   },
   {
     title: "Proceso",
-    path: "/",
+    path: "proceso",
   },
   {
     title: "precios",
-    path: "/",
+    path: "precios",
   },
   {
     title: "Equipo",
-    path: "/",
+    path: "equipo",
   },
   {
     title: "Contacto",
-    path: "/",
+    path: "contacto",
   },
 ];
 

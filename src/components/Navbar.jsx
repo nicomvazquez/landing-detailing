@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 import { nav } from "../constants";
 
@@ -9,11 +10,24 @@ function Navbar() {
 
       <div className="hidden md:flex gap-7">
         {nav.map((i) => {
-          return <h1 key={i.title}>{i.title}</h1>;
+          return (
+            <Link
+              to={i.path}
+              smooth={true}
+              duration={500}
+              offset={-80}
+              className="text-xl hover:text-[#0CC0DF] hover:scale-110 transition-all cursor-pointer"
+              key={i.title}
+            >
+              {i.title}
+            </Link>
+          );
         })}
       </div>
 
-      <button className="bg-[#0CC0DF] px-5 py-3 text-white">Contactar </button>
+      <button className="bg-[#0CC0DF] hover:bg-[#45bcd1] hover:scale-110 transition-all rounded-md px-4 py-2 text-white">
+        Contactar{" "}
+      </button>
     </nav>
   );
 }

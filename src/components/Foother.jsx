@@ -4,7 +4,10 @@ import { nav } from "../constants";
 
 function Foother() {
   return (
-    <footer className="flex flex-col md:flex-row md:items-center gap-5 justify-between text-white">
+    <footer
+      id="contacto"
+      className="flex flex-col md:flex-row md:items-center gap-5 justify-between text-white"
+    >
       <div className="md:max-w-xs w-full flex flex-col justify-center gap-3">
         <img src="./logo.png" alt="" className="w-32" />
         <p>

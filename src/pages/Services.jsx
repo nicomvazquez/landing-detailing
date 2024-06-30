@@ -6,7 +6,7 @@ import { services } from "../constants";
 
 function Services() {
   return (
-    <section className="flex flex-col gap-10 md:flex-row items-center">
+    <section id="servicios" className="flex flex-col gap-10 md:flex-row items-center">
       <div className="flex flex-col gap-3">
         <h1 className="text-5xl font-semibold border-l-4 border-l-[#0CC0DF] pl-5">
           Servicios

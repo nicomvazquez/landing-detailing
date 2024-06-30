@@ -7,7 +7,7 @@ import { Home, Services, Proces, Pricing, Team } from "./pages";
 function App() {
   return (
     <div className="w-full overflow-hidden">
-      <div className="flex justify-center px-6 py-4 border-b-2">
+      <div className="flex justify-center px-6 p-2 border-b-2">
         <div className="w-full">
           <Navbar />
         </div>
